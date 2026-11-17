@@ -1,0 +1,23 @@
+{
+  "date": "2026-11-14T17:47:45.723Z",
+  "browser": "Chrome headless",
+  "mode": "file://",
+  "darkPages": 32,
+  "darkProfileStates": 48,
+  "contrastResults": [
+    {
+      "pair": "--text/--surface",
+      "ratio": 15.49436809958735
+    },
+    {
+      "pair": "--muted/--bg",
+      "ratio": 5.352827957785438
+    },
+    {
+      "pair": "--link/--soft",
+      "ratio": 6.8029241722923715
+    }
+  ],
+  "errors": [],
+  "logout": "confirmar/cancelar/reentrada/navegação direta verificados"
+}

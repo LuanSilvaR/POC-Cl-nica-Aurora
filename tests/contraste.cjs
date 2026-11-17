@@ -1,0 +1,11 @@
+const assert = require('node:assert/strict');
+const fs = require('node:fs');
+const vm = require('node:vm');
+const scope = { window: {} };
+vm.runInNewContext(fs.readFileSync(__dirname + '/../js/utils.js', 'utf8'), scope);
+const { contrast, readable } = scope.window.Utils;
+assert.equal(contrast('#ffffff', '#000000'), 21);
+assert.equal(contrast('#176455', '#ffffff') >= 4.5, true);
+assert.equal(readable('#eeeeee'), false);
+assert.equal(readable('#176455'), true);
+console.log('4 verificações de contraste passaram.');

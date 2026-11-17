@@ -1,0 +1,15 @@
+<!doctype html>
+<html lang="pt-BR">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Três visões de trabalho | Rascunhos da POC</title><link rel="stylesheet" href="css/design-system.css"><link rel="stylesheet" href="css/visoes-gerais.css"><script defer src="js/visoes-gerais.js"></script><link rel="stylesheet" href="css/temas.css"><link rel="stylesheet" href="css/paleta.css"><script src="js/rampa-legado.js"></script><script src="js/paleta.js"></script><script src="js/preferencias.js"></script><link rel="stylesheet" href="css/cabecalhos.css"><script defer src="js/cabecalhos.js"></script><script defer src="js/icones-acoes.js"></script></head>
+<link rel="stylesheet" href="css/select-search.css"><script defer src="js/select-search.js"></script>
+<body>
+<a href="#painel" class="skip-link">Pular para o painel</a>
+<header class="review-header"><div class="review-title-container"><div><h1>Visão geral por perfil</h1><p>Consulte os indicadores, a fila e as prioridades relevantes para cada função da clínica.</p></div><nav class="review-page-actions" aria-label="Ações da página"><a href="index.html">Voltar</a></nav></div></header>
+<div class="review-controls"><fieldset><legend>Perfil de trabalho</legend><div class="profile-options"><button type="button" data-profile="administrador" aria-pressed="true">1. Administrador da empresa</button><button type="button" data-profile="recepcao" aria-pressed="false">2. Recepcionista</button><button type="button" data-profile="medico" aria-pressed="false">3. Médico</button></div></fieldset><label>Visualização<select id="scenario"><option value="normal">Com informações</option><option value="loading">Carregando</option><option value="empty">Sem dados</option><option value="error">Falha ao carregar</option></select></label></div>
+<p class="review-note">Selecione um perfil para consultar seus indicadores e tarefas.</p>
+<main id="painel" tabindex="-1" aria-label="Proposta selecionada"></main>
+<div id="announcement" class="sr-only" role="status" aria-live="polite"></div>
+<dialog id="action-dialog" aria-labelledby="action-title"><h2 id="action-title"></h2><p id="action-description"></p><p class="review-note">Prévia da ação. Nenhuma alteração foi aplicada.</p><button id="close-action" type="button">Voltar ao rascunho</button></dialog>
+
+<noscript>Ative JavaScript para comparar os rascunhos.</noscript>
+</body></html>

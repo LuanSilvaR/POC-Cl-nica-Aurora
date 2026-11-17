@@ -1,0 +1,39 @@
+/* Regras da agenda e visibilidade das fichas profissionais na POC. */
+#settings-agenda .settings-agenda-grid{grid-template-columns:repeat(2,minmax(0,1fr));align-items:start}
+#settings-agenda .settings-switch-heading{grid-column:1/-1;margin:14px 0 0;padding-bottom:8px;border-bottom:1px solid var(--border);font-size:15px}
+#settings-agenda .settings-switch-row{grid-column:1/-1;display:grid;grid-template-columns:minmax(0,1fr) 46px;align-items:center;gap:16px;padding:14px 2px;border-bottom:1px solid var(--border)}
+#settings-agenda .settings-switch-copy{display:grid;gap:4px;min-width:0}
+#settings-agenda .settings-switch-copy strong{font-size:14px;font-weight:600}
+#settings-agenda .settings-switch-copy small{font-size:13px;font-weight:400;line-height:1.45;color:var(--muted)}
+#settings-clinica .settings-group-heading{grid-column:1/-1;margin:16px 0 0;padding-bottom:8px;border-bottom:1px solid var(--border);font-size:15px}
+#settings-clinica .settings-document-help{margin:0 0 4px}
+#settings-agenda .settings-switch{appearance:none;position:relative;width:44px;height:26px;min-height:26px;margin:0;padding:0;border:1px solid #879b91;border-radius:999px;background:#c9d0cc;cursor:pointer;transition:background-color .15s ease,border-color .15s ease}
+#settings-agenda .settings-switch::after{content:"";position:absolute;top:3px;left:3px;width:18px;height:18px;border-radius:50%;background:#fff;box-shadow:0 1px 3px #0003;transition:transform .15s ease}
+#settings-agenda .settings-switch:checked{background:var(--primary);border-color:var(--primary)}
+#settings-agenda .settings-switch:checked::after{transform:translateX(18px)}
+#settings-agenda .settings-switch:focus-visible{outline:3px solid var(--brand-text);outline-offset:3px}
+#settings-equipe .professional-list{min-width:0}
+#settings-equipe .professional-list th{white-space:nowrap}
+#settings-equipe .professional-list td{vertical-align:middle}
+#settings-equipe .professional-profile{display:grid;grid-template-columns:minmax(150px,220px) minmax(0,1fr);gap:0 20px;margin:18px 0}
+#settings-equipe .professional-profile dt,#settings-equipe .professional-profile dd{margin:0;padding:12px 0;border-bottom:1px solid var(--border)}
+#settings-equipe .professional-profile dt{font-weight:600}
+#settings-equipe .professional-profile dd{color:var(--muted)}
+#settings-equipe .professional-blocks{margin-top:24px;padding-top:18px;border-top:1px solid var(--border)}
+#settings-equipe .professional-edit-form{margin-top:16px}
+#settings-equipe .professional-heading{display:flex;justify-content:space-between;align-items:center;gap:18px;margin-bottom:16px}
+#settings-equipe .professional-heading h2{margin-bottom:6px}
+#settings-equipe .professional-heading .setting-help{margin:0}
+#settings-equipe .professional-heading .button{flex:0 0 auto}
+#settings-equipe .professional-actions{white-space:nowrap}
+#settings-equipe .professional-action{display:inline-grid;place-items:center;width:36px;height:36px;margin:0 3px;padding:8px;border:1px solid var(--border);border-radius:8px;background:var(--surface);color:var(--text);cursor:pointer}
+#settings-equipe .professional-action:hover{background:var(--surface-soft,var(--background));color:var(--primary)}
+#settings-equipe .professional-action:focus-visible{outline:3px solid var(--brand-text);outline-offset:2px}
+#settings-equipe .professional-action svg{width:18px;height:18px;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
+.professional-dialog-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}
+.access-invite-dialog .professional-dialog-grid{margin-bottom:24px}
+.access-invite-dialog label:has(select[name="member"]){margin-bottom:24px}
+.access-invite-dialog .form-actions{margin-top:20px;padding-top:4px}
+@media(max-width:680px){#settings-agenda .settings-agenda-grid{grid-template-columns:1fr}#settings-equipe .professional-profile{grid-template-columns:1fr;gap:0}#settings-equipe .professional-profile dt{padding-bottom:3px;border-bottom:0}#settings-equipe .professional-profile dd{padding-top:3px}#settings-equipe .professional-list thead{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}#settings-equipe .professional-list,#settings-equipe .professional-list tbody,#settings-equipe .professional-list tr,#settings-equipe .professional-list td{display:block;width:100%}#settings-equipe .professional-list tr{margin:0 0 12px;padding:8px 14px;border:1px solid var(--border);border-radius:8px;background:var(--surface)}#settings-equipe .professional-list td{display:flex;justify-content:space-between;align-items:flex-start;gap:12px;padding:9px 0;text-align:right}#settings-equipe .professional-list td::before{content:attr(data-label);font-weight:600;text-align:left;color:var(--muted)}}
+@media(max-width:680px){#settings-equipe .professional-heading{align-items:flex-start;flex-direction:column}.professional-dialog-grid{grid-template-columns:1fr}}
+@media(prefers-reduced-motion:reduce){#settings-agenda .settings-switch,#settings-agenda .settings-switch::after{transition:none}}

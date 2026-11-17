@@ -1,0 +1,14 @@
+{
+  "date": "2026-11-14T17:40:28.499Z",
+  "mode": "file://",
+  "browser": "Chrome headless",
+  "results": [
+    "7 páginas sem overflow em 320px",
+    "7 páginas sem overflow em 768px",
+    "7 páginas sem overflow em 1024px",
+    "7 páginas sem overflow em 1440px",
+    "Nome obrigatório validado; nome/cor/logo aplicados e persistidos; padrão restaurado",
+    "Modal: Esc e retorno de foco; menu recolhível; busca / e navegação",
+    "Nenhum erro JavaScript observado"
+  ]
+}

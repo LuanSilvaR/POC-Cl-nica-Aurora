@@ -1,0 +1,15 @@
+{
+  "date": "2026-11-14T17:34:29.847Z",
+  "groups": 4,
+  "options": 13,
+  "hubCases": 8,
+  "detailCases": 104,
+  "checks": [
+    "13 destinos próprios com navegação de retorno",
+    "Busca por descrição/nome, acentos e vazio recuperável",
+    "Sem formulários no hub; sem submenu lateral nos detalhes",
+    "Claros/escuros, 320/768/1024/1440 sem overflow",
+    "Marca persistida, link antigo #marca e destino inválido tratados"
+  ],
+  "errors": []
+}

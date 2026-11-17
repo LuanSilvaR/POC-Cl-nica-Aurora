@@ -1,0 +1,11 @@
+{
+  "date": "2026-11-14T17:30:00.678Z",
+  "cases": 64,
+  "checks": [
+    "8 telas × 4 larguras × 2 temas sem overflow",
+    "Breadcrumb presente; ações à direita antes do título, sem avisos repetidos",
+    "Um H1 por tela; retenção junto ao campo",
+    "Botões fora do formulário continuam salvando organização e marca"
+  ],
+  "errors": []
+}

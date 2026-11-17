@@ -1,0 +1,51 @@
+{
+  "date": "2026-11-14T15:56:18.696Z",
+  "combinations": 72,
+  "samples": [
+    {
+      "seed": "#4d3878",
+      "soft": "#2e2a31",
+      "hover": "#6c549f",
+      "icon": "rgb(168, 154, 209)",
+      "expected": "#a89ad1",
+      "ratios": {
+        "button": 9.7563756920037,
+        "link": 5.502361298017438,
+        "hover": 6.164867600476643
+      }
+    },
+    {
+      "seed": "#bf5c15",
+      "soft": "#3f2d1f",
+      "hover": "#de6d1e",
+      "icon": "rgb(240, 134, 71)",
+      "expected": "#f08647",
+      "ratios": {
+        "button": 4.756960244536472,
+        "link": 5.108071169223841,
+        "hover": 6.312122243719213
+      }
+    },
+    {
+      "seed": "#eeeeee",
+      "soft": "#3f3e3a",
+      "hover": "#efefef",
+      "icon": "rgb(240, 240, 240)",
+      "expected": "#f0f0f0",
+      "ratios": {
+        "button": 18.099852162484677,
+        "link": 9.394516722830598,
+        "hover": 18.263144269082044
+      }
+    }
+  ],
+  "checks": [
+    "9 seções em 4 larguras/2 temas",
+    "Paleta alterada em menus, hover e ícones, persistência após navegação",
+    "Cor clara com contraste adaptado",
+    "Validação de expediente, persistência de conta/equipe/modelo",
+    "Nome sincronizado no menu e saudação; conteúdo de template tratado como texto",
+    "8 grupos de integrações explicitamente não conectados"
+  ],
+  "errors": []
+}

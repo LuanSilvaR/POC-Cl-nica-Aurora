@@ -1,0 +1,12 @@
+{
+  "date": "2026-11-14T17:29:49.208Z",
+  "browser": "Chrome headless",
+  "mode": "file://",
+  "results": [
+    "3 perfis × 4 estados em 320px sem overflow; ações e recuperação verificadas",
+    "3 perfis × 4 estados em 768px sem overflow; ações e recuperação verificadas",
+    "3 perfis × 4 estados em 1024px sem overflow; ações e recuperação verificadas",
+    "3 perfis × 4 estados em 1440px sem overflow; ações e recuperação verificadas",
+    "Seleção por teclado e URL de perfil verificadas; nenhum erro JavaScript observado"
+  ]
+}

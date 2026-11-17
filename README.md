@@ -47,4 +47,3 @@ Documentação: `../ANALISE.md`, `../PROPOSTA.md`, `../PLANO-POC.md`. Validaçã
 **Paleta:** escolher uma cor gera 11 tons. Salvar aplica a botões, menus ativos/hover, ícones, foco e destaques em todas as páginas e temas. Cores claras são aceitas com textos adaptados; status semânticos permanecem independentes. Rotina OKLCh adaptada sob MIT, licença em `third_party/DeskcommCRM-LICENSE.txt`; sem dependência externa de execução. Fontes e limites em `../CONFIGURACOES-LEGADO.md`; histórias CFG-01/CFG-02.
 
 Verificações opcionais: `node tests/paleta.cjs` (apenas Node) e `node tests/configuracoes.cjs` (Playwright instalado no CRM de origem).
-

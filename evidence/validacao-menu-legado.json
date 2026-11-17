@@ -1,0 +1,18 @@
+{
+  "date": "2026-11-14T15:52:04.564Z",
+  "legacyTokens": {
+    "--bg": "#161510",
+    "--surface": "#1d1c17",
+    "--soft": "#272620",
+    "--text": "#f5f4ef",
+    "--muted": "#8e8b7f",
+    "--border": "#33312a"
+  },
+  "checks": [
+    "32 páginas/larguras com popup dentro da janela",
+    "Tema e saída apenas no popup",
+    "Nome/e-mail fictícios, ícones, teclado, Escape e clique externo",
+    "Cancelamento da saída restaura foco no avatar"
+  ],
+  "errors": []
+}
